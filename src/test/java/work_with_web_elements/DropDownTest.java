@@ -15,10 +15,10 @@ public class DropDownTest {
 
         $("#dropdown").selectOption(1);
         $("#dropdown :nth-child(2)").shouldHave(attribute("selected", "true"));
-        $("#dropdown :nth-child(2)").shouldHave(text("Option 1"));
+        $("#dropdown").shouldHave(text("Option 1"));
 
         $("#dropdown").selectOption("Option 2");
         $("#dropdown :nth-child(3)").shouldHave(attribute("selected", "true"));
-        $("#dropdown :nth-child(3)").shouldHave(text("Option 2"));
+        $("#dropdown").shouldHave(text("Option 2"));
     }
 }
