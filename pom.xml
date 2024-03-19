@@ -68,12 +68,9 @@
                 <executions>
                     <execution>
                         <id>run-e2e</id>
-                        <goals>
-                            <goal>test</goal>
-                        </goals>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>e2e-suite.xml</suiteXmlFile>
+                                <suiteXmlFile>test-suits/e2e-suite.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </execution>
