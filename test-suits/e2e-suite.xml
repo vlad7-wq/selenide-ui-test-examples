@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="e2eSuite">
+    <test name="E2ETest">
+        <classes>
+            <class name="opencart.abstracta.us.tests.E2ETest"/>
+        </classes>
+    </test>
+</suite>
