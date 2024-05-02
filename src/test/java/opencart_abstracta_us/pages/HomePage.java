@@ -1,4 +1,4 @@
-package opencart.abstracta.us.pages;
+package opencart_abstracta_us.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.WebDriverRunner;

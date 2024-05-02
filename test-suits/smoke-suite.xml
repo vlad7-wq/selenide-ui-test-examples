@@ -2,7 +2,7 @@
 <suite name="e2eSuite">
     <test name="E2ETest">
         <classes>
-            <class name="opencart_abstracta_us.tests.E2ETest"/>
+            <class name="work_with_widgets.ProgressBarTest"/>
         </classes>
     </test>
 </suite>

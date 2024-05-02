@@ -1,11 +1,11 @@
-package opencart.abstracta.us.tests;
+package opencart_abstracta_us.tests;
 
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.Description;
-import opencart.abstracta.us.data.BillingDetailsData;
-import opencart.abstracta.us.data.BillingDetailsDataProvider;
-import opencart.abstracta.us.data.LogInData;
-import opencart.abstracta.us.pages.*;
+import opencart_abstracta_us.data.BillingDetailsData;
+import opencart_abstracta_us.data.BillingDetailsDataProvider;
+import opencart_abstracta_us.data.LogInData;
+import opencart_abstracta_us.pages.*;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 

@@ -12,6 +12,7 @@ public class ProgressBarTest {
     @Test
     public void testProgressBar() {
         Configuration.browserSize = "1920x1080";
+        Configuration.headless = true;
         open("https://demoqa.com/progress-bar");
 
         $("#startStopButton").shouldHave(text("Start")).click();

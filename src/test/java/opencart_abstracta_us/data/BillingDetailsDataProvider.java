@@ -1,4 +1,4 @@
-package opencart.abstracta.us.data;
+package opencart_abstracta_us.data;
 
 import com.github.javafaker.Faker;
 
