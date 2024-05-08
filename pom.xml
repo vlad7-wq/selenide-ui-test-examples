@@ -68,10 +68,18 @@
                 <version>${maven-surefire-plugin.version}</version>
                 <executions>
                     <execution>
-                        <id>run-e2e</id>
+                        <id>e2e</id>
                         <configuration>
                             <suiteXmlFiles>
                                 <suiteXmlFile>test-suits/e2e-suite.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>widgets</id>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>test-suits/widgets-suite.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </execution>

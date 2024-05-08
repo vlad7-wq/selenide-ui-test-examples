@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="run all suits">
+    <suite-files>
+        <suite-file path="e2e-suite.xml"/>
+        <suite-file path="widgets-suite.xml"/>
+    </suite-files>
+</suite>

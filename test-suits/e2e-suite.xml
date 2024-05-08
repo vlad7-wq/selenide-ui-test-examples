@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="e2eSuite">
-    <test name="E2ETest">
+<suite name="end to end test">
+    <test name="E2E test chrome">
         <classes>
             <class name="opencart_abstracta_us.tests.E2ETest"/>
         </classes>

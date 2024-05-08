@@ -1,5 +1,6 @@
 package work_with_widgets;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import org.testng.annotations.Test;
 
@@ -10,6 +11,8 @@ public class SliderTest {
 
     @Test
     public void sliderTest() {
+        Configuration.browserSize = "1920x1080";
+        Configuration.headless = true;
         open("https://demoqa.com/slider");
 
         SelenideElement el = $("span[class='range-slider__wrap']");

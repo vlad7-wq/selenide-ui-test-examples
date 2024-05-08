@@ -11,7 +11,8 @@ public class ToolTipTest {
 
     @Test
     public void testTooltip() {
-        Configuration.browserSize = "1920x1018";
+        Configuration.browserSize = "1920x1080";
+        Configuration.headless = true;
         open("https://demoqa.com/tool-tips");
 
         $("#toolTipTextField").hover();

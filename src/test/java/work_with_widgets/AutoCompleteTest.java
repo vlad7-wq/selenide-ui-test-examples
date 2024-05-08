@@ -1,5 +1,6 @@
 package work_with_widgets;
 
+import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
@@ -13,6 +14,8 @@ public class AutoCompleteTest {
 
     @Test
     public void testAutoComplete() {
+        Configuration.browserSize = "1920x1080";
+        Configuration.headless = true;
         open("https://demoqa.com/auto-complete");
 
         $("#autoCompleteMultipleInput").setValue("bl").pressTab();
